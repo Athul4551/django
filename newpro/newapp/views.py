@@ -6,7 +6,9 @@ from .models import *
 def index(request): 
     if request.POST:
         todo123=request.POST.get("todo")
-        obj=Todoitem(title=todo123)
+        todo321=request.POST.get("date")
+        todo311=request.POST.get("course")
+        obj=Todoitem(title1=todo123,title2=todo321,title3=tudo311)
         obj.save()
         return redirect(index)
     data=Todoitem.objects.all()

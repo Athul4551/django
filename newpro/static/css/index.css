@@ -1,0 +1,68 @@
+.gg{
+    text-align: center;
+    color: brown;
+    /* border-style: ridge; */
+    margin-top: 50px;
+}
+.ee{
+    color: rgb(18, 99, 28);
+    text-align: center;
+    /* text-shadow: 2px 2px black; */
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    margin-left: 150px;
+    /* background-color: rgba(2, 3, 80, 0.26); */
+    /* margin-bottom: 500px; */
+}
+.tt{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 500px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: white;
+    margin-top: 100px;
+}
+.ss{
+    width: 500px;
+    height: 10px;
+}
+.cc{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    background-color: rgb(50, 172, 105);
+    border-radius: 4px;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    width: 60px;
+    height: 30px;
+}
+.rr{
+    background-image: linear-gradient(to right,lightgreen ,rgb(67, 202, 135));
+}
+.ww{
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+}
+.www{
+    width: 210px;
+    height: 25px;
+    border-radius: 5px;
+}
+.tp{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    justify-content: center;
+    margin-left: 500px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+    margin-bottom: 500px;text-align: center;
+    overflow: scroll;
+}
+.oo{
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* font-size: xx-large; */
+}

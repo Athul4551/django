@@ -1,22 +1,39 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
 </head>
-<body>
-    <h1>hello</h1>
+<body class="rr">
+   <!-- <div class="ee"><h1>FORM</h1></div> -->
     <!-- <a href="about">connect</a> -->
-    <form action="{% url 'index' %}" method="post">
+    <div class="tt">
+        <div class="ss"></div>
+        <div class="ee"><h3>FORM</h3></div>
+    <form action="{% url 'index' %}" method="post" class="gg">
     {% csrf_token %}
-    <input type="text" name="todo">
-    <input type="date" name="date">
-    <input type="text" name="course">
-    <input type="submit" value="submit">
+    name
+    <input type="text" name="todo" class="ww"><br><br>
+    date
+    <input type="date" name="date" class="www"><br><br>
+    course
+    <input type="text" name="course" class="ww"><br><br>
+    <!-- <input type="submit" value="submit" class="cc"><br><br> -->
+    <button type="submit" class="cc">submit</button>
     </form>
+   
+    </div>
+    <div class="tp">
+        <div class="ss"></div>
+        <div class="ee"><h3>TODO</h3></div>
     {% for i in feeds %}
-    <p>{{ i.title }}</p>
+    <span>{{ i.title1 }}</span>
+    <span>{{ i.title2 }}</span>
+    <span>{{ i.title3 }}</span><br><br>
     {% endfor %}
+    <div></div>
 </body>
 </html>

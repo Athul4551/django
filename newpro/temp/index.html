@@ -15,6 +15,7 @@
         <div class="ee"><h3>FORM</h3></div>
     <form action="{% url 'index' %}" method="post" class="gg">
     {% csrf_token %}
+    
     name
     <input type="text" name="todo" class="ww"><br><br>
     date
@@ -30,10 +31,12 @@
         <div class="ss"></div>
         <div class="ee"><h3>TODO</h3></div>
     {% for i in feeds %}
+   
     <span>{{ i.title1 }}</span>
     <span>{{ i.title2 }}</span>
-    <span>{{ i.title3 }}</span><br><br>
+    <span>{{ i.title3 }}</span>
+    <a href="{% url 'deletion' i.id %}"><button>delete</button></a><br><br>
     {% endfor %}
-    <div></div>
+    </div>
 </body>
 </html>

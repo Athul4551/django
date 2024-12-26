@@ -13,4 +13,8 @@ def index(request):
         return redirect(index)
     data=Todoitem.objects.all()
     return render(request,"index.html",{"feeds":data})
+def delete_g(request,id):
+    feeds=Todoitem.objects.filter(pk=id)
+    feeds.delete()
+    return redirect(index)
 # Create your views here.

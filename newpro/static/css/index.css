@@ -38,8 +38,7 @@
     height: 30px;
 }
 .rr{
-    /* background-image: linear-gradient(to right,lightgreen ,rgb(67, 202, 135)); */
-    background-image:linear-gradient(to right,rgb(45, 157, 231),rgb(40, 221, 176)) ;
+    background-image: linear-gradient(to right,lightgreen ,rgb(67, 202, 135));
 }
 .ww{
     width: 200px;
@@ -61,7 +60,7 @@
     background-color: rgb(255, 255, 255);
     margin-top: 100px;
     margin-bottom: 500px;text-align: center;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 .oo{
     /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */

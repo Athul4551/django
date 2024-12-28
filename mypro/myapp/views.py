@@ -10,5 +10,5 @@ def index(request):
         return redirect(index)
     data=Todoitem.objects.all()
     return render(request,"index.html",{"feeds":data})
-# def about(request):
-#     return render(request,"about.html")
+def about(request):
+     return render(request,"about.html")

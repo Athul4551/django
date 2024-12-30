@@ -26,3 +26,6 @@ def signup(request):
             return redirect(login_user)
         messages.error(request,"wrong password or username")
     return render(request,'signin.html')
+def logout_g(request):
+    logout(request)
+    return redirect(login_user)
